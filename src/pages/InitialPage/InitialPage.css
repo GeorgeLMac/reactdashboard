@@ -1,0 +1,93 @@
+.initial-page {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #36a9e1, #2d2e83);
+    margin: 0px
+}
+
+.bg-syswater {
+    /* min-height: 100vh;
+    background-image: linear-gradient(to bottom, #36a9e1, #2d2e83);
+    margin: 0px */
+    background:
+    linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url(../../assets/images/7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: unset;
+    height: 100%;
+    min-height: 100vh;
+    opacity: 1.2;
+    margin-left: -2px;
+    /* background-image: url(../../assets/images/7.jpg); */
+    /* background-image: linear-gradient(to bottom, #36a9e1, #2d2e83); */
+}
+
+.image {
+    margin-top: 17%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    width: 10rem;
+    height: 2.4rem;
+    margin-right: 2%;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #36a9e1;
+    border-radius: 7px;
+    background: #36a9e1;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #2a5592;
+    font-size: small;
+    font-weight: bold;
+}
+
+.sign-up:focus {
+    outline: none;
+}
+
+.sign-up:hover,
+.sign-up:active {
+    background: #65b6df;
+    border-color: #65b6df;
+}
+
+.login {
+    width: 10rem;
+    height: 2.4rem;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    background: white;
+    color: gray;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #2a5592;
+    font-size: small;
+    font-weight: bold;
+}
+
+.login:focus {
+    outline: none;
+}
+
+.login:hover,
+.login:active {
+    color: white;
+    background: #4c6b97;
+    border-color: #4c6b97;
+}

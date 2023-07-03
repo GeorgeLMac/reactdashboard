@@ -1,0 +1,144 @@
+/*----------------- Css for tooltip ----------------*/
+/* *{
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+/* button css */
+.tool-button{
+    
+    background-image: linear-gradient(to right, #6dd5e3, #fad0fb);
+    width:250px;
+    height:65px;
+    border-radius: 5px;
+    margin:auto;
+    margin-top:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.displayflex{
+  display: flex;
+}
+.font20{
+  font-size: 20px;
+  margin-top: -1%;
+  margin-left: 1%;
+}
+
+/* button css on hovering the button */
+.tool-button:hover{
+  background-image: linear-gradient(to right, #032429, #fad0fb);
+}
+  
+ /* Tooltip box for bottom  */
+.box-bottom {
+    width: auto;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    position: relative;
+    top:30px;
+    margin:auto;
+  }
+  /* Tooltip box for top */
+  .box-top {
+    width: auto;
+    height: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: relative;
+    
+    top:-150px;
+    margin:auto;
+  }
+  /* Tooltip box for right  */
+  .box-right {
+    max-width: 400px;
+    max-height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    /* top: calc(30% + 5px);
+    left: calc(30% + 5px);
+    bottom: calc(100% + 5px); */
+    /* top: 20%;
+    right: 45vw; */
+    
+  }
+  /* Tooltip box for left  */
+  .box-left {
+    width: 100px;
+    height: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top:0px;
+    left:28vw;
+  }
+
+  /*---------------- Arrow for buttons---------------- */
+  .arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid white;
+  }
+  
+  .arrow-left:after {
+    content: " ";
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 15px solid white;
+    border-bottom: 15px solid transparent;
+  }
+  
+  .arrow-top:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
+    border-top: 15px solid white;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+  }
+  
+  .arrow-right:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid white;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+  }
