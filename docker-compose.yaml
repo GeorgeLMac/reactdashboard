@@ -7,5 +7,5 @@ services:
       - "8082:80"
     restart: always
     environment:
-      URL_API: "https://iotmonitor-api-hml.syskeeper.com.br/"
+      URL_API: ""
       
